@@ -14,7 +14,6 @@ public class AppConfig {
 
     @Bean(name="cat")
     @Scope("prototype")
-    //@SessionScope
     public Cat getPojoCat() {
         Cat cat = new Cat();
         cat.setMessage("I am cat");
